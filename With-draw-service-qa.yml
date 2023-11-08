@@ -1,0 +1,24 @@
+server:
+  port: 6004
+spring:
+  mvc:
+    view:
+     prefix: /views/
+  jpa:
+   properties:
+     hibernate:
+       dialect: org.hibernate.dialect.MySQL8Dialect
+   hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: mysql://localhost:3306/With_draw_service_qa
+    username: root
+    password: Rishikumar12345
+    
+     
+ 
+
+
+
+
